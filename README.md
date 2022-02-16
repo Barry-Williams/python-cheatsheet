@@ -887,7 +887,7 @@ Slicing the complete list will perform a copy:
 ```python
 >>> supplies = ['pens', 'staplers', 'flame-throwers', 'binders']
 >>> for i, supply in enumerate(supplies):
->>>     print('Index {} in supplies is: {}'.format(str(i), supply))
+>>>     print(f'Index {i} in supplies is: {supply}')
 Index 0 in supplies is: pens
 Index 1 in supplies is: staplers
 Index 2 in supplies is: flame-throwers
