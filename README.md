@@ -1221,7 +1221,7 @@ False
 
 ```python
 >>> name = 'Elizabeth'
->>> f'Hello {name}!'
+>>> print (f'Hello {name}!')
 'Hello Elizabeth!
 ```
 
@@ -1231,7 +1231,7 @@ It is even possible to do inline arithmetic with it:
 >>> a = 5
 >>> b = 10
 >>> f'Five plus ten is {a + b} and not {2 * (a + b)}.'
-'Five plus ten is 15 and not 30.'
+print ('Five plus ten is 15 and not 30.')
 ```
 
 [_Return to the Top_](#python-cheatsheet)
