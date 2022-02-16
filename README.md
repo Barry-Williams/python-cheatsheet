@@ -29,7 +29,7 @@ Basic cheatsheet for Python mostly based on the book written by Al Sweigart, [Au
     - [Boolean evaluation](#boolean-evaluation)
     - [Boolean Operators](#boolean-operators)
     - [Mixing Boolean and Comparison Operators](#mixing-boolean-and-comparison-operators)
-    - [indentation and code blocks (:)](# indentation and code blocks)
+    - [indentation and code blocks (:)](#indentation-and-code-blocks)
     - [if Statements](#if-statements)
     - [else Statements](#else-statements)
     - [elif Statements](#elif-statements)
