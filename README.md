@@ -407,9 +407,9 @@ True
 ```
 
 [_Return to the Top_](#python-cheatsheet)
-### indentation and code blocks
+### Indentation and Code Blocks
 
-When using the python keywords if, elif, for, while, def, and you need to end the line with a :
+When using the python keywords [if](#if-statements), [else](#else-statements) [elif](#elif-statements), [for](#for-loops-and-the-range-function), [while](#while-loop-statements), [def](#functions), and you need to end the line with a :
 You then need to indent the lines of code you want to belong to that statement using the tab key or multiple spaces (tab is prefered)
 
 ```python
