@@ -131,7 +131,7 @@ String concatenation:
 'AliceBob'
 ```
 
-Note: Avoid `+` operator for string concatenation. Prefer fStrings except in some instances.
+Note: Avoid `+` operator for string concatenation. Prefer [fStrings](#formatted-string-literals-or-f-strings-python-36) except in some instances.
 
 String Replication:
 
