@@ -29,6 +29,7 @@ Basic cheatsheet for Python mostly based on the book written by Al Sweigart, [Au
     - [Boolean evaluation](#boolean-evaluation)
     - [Boolean Operators](#boolean-operators)
     - [Mixing Boolean and Comparison Operators](#mixing-boolean-and-comparison-operators)
+    - [indentation and code blocks (:)](# indentation and code blocks)
     - [if Statements](#if-statements)
     - [else Statements](#else-statements)
     - [elif Statements](#elif-statements)
@@ -197,15 +198,20 @@ a = 1  # initialization
 
 Please note the two spaces in front of the comment.
 
-Function docstring:
+Docstring:
+Using 3 quotation marks you can define a multiple line comment or Docstring
+Start and end the docstring with 3 quotation marks of the same type
 
 ```python
-def foo():
-    """
-    This is a function docstring
-    You can also use:
-    ''' Function Docstring '''
-    """
+
+"""
+This is a function docstring
+With multiple
+lines
+"""
+''' you can also
+    put your quotation
+    marks at the start and end of a line '''
 ```
 
 [_Return to the Top_](#python-cheatsheet)
@@ -401,6 +407,22 @@ True
 ```
 
 [_Return to the Top_](#python-cheatsheet)
+### indentation and code blocks
+
+When using the python keywords if, elif, for, while, def, and you need to end the line with a :
+You then need to indent the lines of code you want to belong to that statement using the tab key or multiple spaces (tab is prefered)
+
+```python
+if this == that:
+  this line belongs to the if statement (line 1)
+  so does this line (line 2)
+this line does not (line 3)
+```
+What this means as we will see in the next section if this equals that line 1 and line 2 will run
+Line 3 will run regardless if this equals that
+
+Any time you see a : followed by indented lines it means anything that is indented belongs to the statement with the :
+
 
 ### if Statements
 
