@@ -276,9 +276,10 @@ Integer to String or Float:
 ```
 
 ```python
->>> print('I am {} years old.'.format(str(29)))
+>>> print('I am '+ str(29) +'  years old.')
 I am 29 years old.
 ```
+You can also use [fstrings](#formatted-string-literals-or-f-strings-python-36) to do this without the str command
 
 ```python
 >>> str(-3.14)
@@ -519,7 +520,7 @@ print('Access granted.')
 ```python
 >>> print('My name is')
 >>> for i in range(5):
->>>     print('Jimmy Five Times ({})'.format(str(i)))
+>>>     print(f'Jimmy Five Times ({i})')
 My name is
 Jimmy Five Times (0)
 Jimmy Five Times (1)
@@ -596,7 +597,7 @@ while True:
     response = input()
     if response == 'exit':
         sys.exit()
-    print('You typed {}.'.format(response))
+    print(f'You typed {response}.')
 ```
 
 [_Return to the Top_](#python-cheatsheet)
@@ -605,7 +606,7 @@ while True:
 
 ```python
 >>> def hello(name):
->>>     print('Hello {}'.format(name))
+>>>     print(f'Hello {name}')
 >>>
 >>> hello('Alice')
 >>> hello('Bob')
@@ -704,7 +705,7 @@ There are four rules to tell whether a variable is in a local scope or global sc
 >>>     try:
 >>>         return 42 / divideBy
 >>>     except ZeroDivisionError as e:
->>>         print('Error: Invalid argument: {}'.format(e))
+>>>         print(f'Error: Invalid argument: {e}')
 >>>
 >>> print(spam(2))
 >>> print(spam(12))
@@ -729,7 +730,7 @@ not, and even if an exception is not caught.
 >>>     try:
 >>>         return 42 / divideBy
 >>>     except ZeroDivisionError as e:
->>>         print('Error: Invalid argument: {}'.format(e))
+>>>         print(f'Error: Invalid argument: {e}')
 >>>     finally:
 >>>         print("-- division finished --")
 >>> print(spam(2))
@@ -799,7 +800,7 @@ None
 ```
 
 ```python
->>> 'The {} is afraid of the {}.'.format(spam[-1], spam[-3])
+>>> f'The {spam[-1]} is afraid of the {spam[-3]}.')
 'The elephant is afraid of the bat.'
 ```
 
@@ -902,7 +903,7 @@ Index 3 in supplies is: binders
 >>> name = ['Pete', 'John', 'Elizabeth']
 >>> age = [6, 23, 44]
 >>> for n, a in zip(name, age):
->>>     print('{} is {} years old'.format(n, a))
+>>>     print(f'{n} is {a} years old')
 Pete is 6 years old
 John is 23 years old
 Elizabeth is 44 years old
