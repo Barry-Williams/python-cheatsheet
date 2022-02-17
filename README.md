@@ -112,6 +112,9 @@ range (3, 8)
 range (3, 8, 2)
 ```
 The range function can take one, two or, three arguements
+**white space**
+For the most part spaces in your code do not matter you will notice above in the range command the first command had no space between range the parenthesis but the rest do
+There are only a few occasions it really matters if you include a space in your code or not and I will cover when that is the case
 
 ### Math Operators
 
