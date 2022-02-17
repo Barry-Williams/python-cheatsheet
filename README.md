@@ -84,13 +84,14 @@ Basic cheatsheet for Python mostly based on the book written by Al Sweigart, [Au
 
 ### Symbols and terminology
 
-|symbol|Name         |symbol|Name       |
-|‘     |Single Quote |\     |Backslash  |
-|“     |Double Quote |>     |Greater    |
-|!     |Exclamation  |<     |Less       |
-|#     |Hash         |:     |Colon      |
-|()    |Parentheses  |;     |Semi Colon |
-|*     |Asterisk     |.     |Dot        |
+| symbol| Name       | symbol | Name       |
+| ----- | ---------- | ------ |
+| ‘     |Single Quote |\     |Backslash  |
+| “     |Double Quote |>     |Greater    |
+| !     |Exclamation  |<     |Less       |
+| #     |Hash         |:     |Colon      |
+| ()    |Parentheses  |;     |Semi Colon |
+| *     |Asterisk     |.     |Dot        |
 | /    |Slash        |,     |Comma      |
 
 ### Math Operators
