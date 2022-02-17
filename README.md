@@ -94,6 +94,24 @@ Basic cheatsheet for Python mostly based on the book written by Al Sweigart, [Au
 | *     |Asterisk     | .      | Dot        |
 | /     |Slash        |,       | Comma      |
 
+**Parentheses** () are used to assign code including strings, numbers, variables etc to a particular function
+```python
+print("this string belongs to the print function")
+int(input("this string belongs to the input function, the input function belongs to the int function")
+```
+**quotation marks** "" or '' are used to enclose strings either double or single quotation marks can be used so long as the same are used on either side
+```python
+print('I can use single or double quotes')
+print("I'm going to use double quotes here because the single is used as an apostrophe')
+```
+**comma** , is used to seperate arguments to a function
+```python
+range(5)
+range (3, 8)
+range (3, 8, 2)
+```
+The range function can take one, two or, three arguements
+
 ### Math Operators
 
 From **Highest** to **Lowest** precedence:
