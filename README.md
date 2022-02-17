@@ -98,7 +98,7 @@ Basic cheatsheet for Python mostly based on the book written by Al Sweigart, [Au
 ```python
 print("this string belongs to the print function")
 int(input("this string belongs to the input function, the input function belongs to the int function")) 
-# notice the 2 closing parenthesis 
+# notice the 2 closing parenthesis                                                                   ^
 ```
 **quotation marks** "" or '' are used to enclose strings either double or single quotation marks can be used so long as the same are used on either side
 ```python
