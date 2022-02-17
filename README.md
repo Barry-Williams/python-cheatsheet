@@ -1208,6 +1208,12 @@ True
 'hello world!'
 ```
 
+```python
+>>> firstName = "john"
+>>> firstName.capatilize()
+'John'
+```
+
 isupper() and islower():
 
 ```python
