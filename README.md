@@ -97,7 +97,8 @@ Basic cheatsheet for Python mostly based on the book written by Al Sweigart, [Au
 **Parentheses** () are used to assign code including strings, numbers, variables etc to a particular function
 ```python
 print("this string belongs to the print function")
-int(input("this string belongs to the input function, the input function belongs to the int function")) # notice the 2 closing parenthesis 
+int(input("this string belongs to the input function, the input function belongs to the int function")) 
+# notice the 2 closing parenthesis 
 ```
 **quotation marks** "" or '' are used to enclose strings either double or single quotation marks can be used so long as the same are used on either side
 ```python
