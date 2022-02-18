@@ -1266,7 +1266,7 @@ It is even possible to do inline arithmetic with it:
 >>> f'Five plus ten is {a + b} and not {2 * (a + b)}.'
 print ('Five plus ten is 15 and not 30.')
 ```
-**fstings are one place where a space does matter you cannot put a space between the f and the quotation marks
+**fstings are one place where a space does matter you cannot put a space between the f and the quotation marks**
 
 [_Return to the Top_](#python-cheatsheet)
 
