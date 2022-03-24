@@ -76,15 +76,16 @@ Basic cheatsheet for Python mostly based on the book written by Al Sweigart, [Au
 
 ### Symbols and terminology
 
-| symbol| Name        | symbol | Name       |
-| ----- | ----------- | ------ | ---------- |
-| ‘     |Single Quote | \      | Backslash  |
-| “     |Double Quote | >      | Greater    |
-| !     |Exclamation  | <      | Less       |
-| #     |Hash         | :      | Colon      |
-| ()    |Parentheses  | ;      | Semi Colon |
-| *     |Asterisk     | .      | Dot        |
-| /     |Slash        |,       | Comma      |
+| symbol| Name         | symbol | Name        |
+| ----- | ------------ | ------ | ----------- |
+| ‘     |Single Quote  | \      | Backslash   |
+| “     |Double Quote  | >      | Greater     |
+| !     |Exclamation   | <      | Less        |
+| #     |Hash          | :      | Colon       |
+| ()    |Parentheses   | ;      | Semi Colon  |
+| []    |Square bracket| {}     | curly braket|
+| *     |Asterisk      | .      | Dot         |
+| /     |Slash         |,       | Comma       |
 
 **Parentheses** () are used to assign code including strings, numbers, variables etc to a particular function
 ```python
